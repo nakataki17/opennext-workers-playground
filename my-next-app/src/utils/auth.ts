@@ -7,7 +7,7 @@ export const auth = betterAuth({
     provider: "sqlite",
   }),
   socialProviders: {
-    google: {
+    discord: {
       clientId: process.env.DISCORD_CLIENT_ID as string,
       clientSecret: process.env.DISCORD_CLIENT_SECRET as string,
     },
